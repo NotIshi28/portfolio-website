@@ -43,7 +43,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText} >Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("","", 0.1,1)} className="mt-4 text-[#fdfdfd] text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in JavaScript, Python, TypeScript, Dart and C#, and expertise in frameworks like React, Next.js, and technologies like Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems, I also enjoy playing making innovative games, let's work together to bring your ideas to life!
+        I'm a skilled software developer with experience in <span className='text-[#16e16e]'>JavaScript, Python, TypeScript, Dart and C#</span>, and expertise in libraries and frameworks like <span className='text-[#16e16e]'>React, Next.js, Svelte</span>, and tools like <span className='text-[#16e16e]'>Three.js, Stripe, MongoDB, Unity, Streamlit</span> etc. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems, I also enjoy playing making innovative games, let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
