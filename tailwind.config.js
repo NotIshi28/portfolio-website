@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
+        primary: "#001427",
+        secondary: "#16e16e",
+        tertiary: "#040f0f",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -19,7 +19,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('https://cloud-chfihgemg-hack-club-bot.vercel.app/0image.png')",
       },
     },
   },

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,7 +42,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-10 h-10 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Ishit Rastogi &nbsp;
             <span className='sm:block hidden'> | NotIshi28</span>

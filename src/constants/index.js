@@ -48,24 +48,40 @@ import {
       icon: mobile,
     },
     {
-      title: "Frontend Developer",
+      title: "Fullstack Developer",
       icon: backend,
     },
     {
       title: "Game Developer",
       icon: creator,
     },
+    {
+      title: "Cyber Security",
+      icon: creator,
+    },
+    {
+      title: "Quiz",
+      icon: creator,
+    },
+    {
+      title: "Cryptography",
+      icon: creator,
+    },
+    {
+      title: "Hardware",
+      icon: creator,
+    },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -98,14 +114,14 @@ import {
       name: "Three JS",
       icon: threejs,
     },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
-    // {
-    //   name: "figma",
-    //   icon: figma,
-    // },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
     {
       name: "Python",
       icon: python,
