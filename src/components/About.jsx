@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-white text-[19px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -42,8 +42,8 @@ const About = () => {
         <p className={styles.sectionSubText}> Introduction </p>
         <h2 className={styles.sectionHeadText} >Overview</h2>
       </motion.div>
-      <motion.p variants={fadeIn("","", 0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in C#, Python, Dart, TypeScript and JavaScript, and expertise in frameworks like React, Next js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems, I also enjoy playing making innovative games, let's work together to bring your ideas to life!
+      <motion.p variants={fadeIn("","", 0.1,1)} className="mt-4 text-[#fdfdfd] text-[17px] max-w-3xl leading-[30px]">
+        I'm a skilled software developer with experience in JavaScript, Python, TypeScript, Dart and C#, and expertise in frameworks like React, Next.js, and technologies like Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems, I also enjoy playing making innovative games, let's work together to bring your ideas to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
