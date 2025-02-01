@@ -19,7 +19,7 @@ This is my portfolio website! This website showcases my skills, projects, and pr
 ```bash
 npm run dev
 ```
-3. Open `localhost:5137` in your browser
+3. Open `localhost:5173` in your browser
 4. Or visit https://notishi28.dev
 
 ## Contact
