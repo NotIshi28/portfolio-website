@@ -66,7 +66,7 @@ const ProjectCard = ({index, name, description,tags,image, source_code_link,colo
 
             {live_link && (
               <div
-                onClick={() => window.open(behance_link, "_blank")}
+                onClick={() => window.open(live_link, "_blank")}
                 className='white-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ml-2'
               >
                 <img
