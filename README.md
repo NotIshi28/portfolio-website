@@ -17,6 +17,7 @@ This is my portfolio website! This website showcases my skills, projects, and pr
 1. Clone the repository
 2. Run
 ```bash
+npm install
 npm run dev
 ```
 3. Open `localhost:5173` in your browser
