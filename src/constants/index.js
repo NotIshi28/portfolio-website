@@ -149,6 +149,25 @@ import {
       behance_link: "https://www.behance.net/gallery/205258955/Spaceguy",
     },
     {
+      name: "Inception",
+      description:
+        "Not just another FPS Game (okay, maybe a little...) In this game, you control the opponent's movements and you win by dying the most amount of times. Built for Scrapyard Delhi 2025",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C Sharp",
+          color: "pink-text-gradient",
+        },
+      ],
+      color: "-text-gradient",
+      image: "https://img.itch.zone/aW1nLzIwMjg1NDcwLnBuZw==/315x250%23c/ixqYUt.png",
+      itch_io_link: "https://notishi28.itch.io/inception",
+      source_code_link: "https://github.com/NotIshi28/inception",
+    },
+    {
       name: "Retro Rampage",
       description:
         "Steelborne's Revenge is an adrenaline-pumping side-scrolling action game that takes you on a thrilling journey through abandoned spaces and castles. Step into the role of Max Steelborne, an urban explorer turned vigilante. Explore once-vibrant locations now overrun by waves of robotic foes, corrupted AI, and mutated creatures. Uncover the secrets behind the desolation while utilizing the environment to your advantage. ",
